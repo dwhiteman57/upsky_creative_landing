@@ -1,0 +1,308 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+/* Style for "screen bg" */
+body {
+	width: 360px;
+	height: 1217px;
+	background-color: #fff;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.6;
+	color: #000;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+}
+
+/* Add hover effect to gallery images */
+.feat-1,
+.feat-2,
+.mail,
+.twitter { transition: all .2s ease-in-out; }
+
+.feat-1:hover,
+.feat-2:hover { transform: scale(1.1); }
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+
+
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+	color: #fff;
+	background-image: linear-gradient(transparent, #a8ccca), url("../img/header-image.jpg");
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	width: 100%;
+	height: 307px;
+}
+
+.name {
+	font-family: 'PT Mono', monospace;
+	width: 162px;
+	height: 145px;
+	color: black;
+	font-size: 36px;
+	line-height: 42px;
+	position: absolute;
+	top: 89px;
+	left: calc(50% - 162px/2 - 51px);
+}
+
+.logo {
+	/* Style for "Boy with k" */
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 280px;
+	height: 228px;
+	position: absolute;
+	top: 72px;
+	left: calc(50% - 221px/2 + 40px);
+
+}
+
+/* =================================
+  Body Layout Styles
+==================================== */
+
+.bokeh {
+	background-image: url("../img/bokeh-background.png");
+	background-size: cover;
+	width: 100%;
+	height: 416px;
+	position: absolute;
+	top: 305px;
+	left: 0px;
+}
+
+.title-1 {
+	/* Style for "gallery" */
+	position: absolute;
+	width: 138px;
+	height: 30px;
+	left: calc(50% - 138px/2);
+	top: 25px;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+}
+
+.feat-1 {
+	background-image: url("../img/ashley-strength.jpg");
+	background-size: cover;
+	width: 197px;
+	height: 120px;
+	border-radius: 15px;
+	position: absolute;
+	top: 80px;
+	left: calc(50% - 197px/2 + 0.5px);
+}
+
+.feat-2 {
+	background-image: url("../img/sogf.png");
+	background-size: cover;
+	width: 197px;
+	height: 120px;
+	border-radius: 15px;
+	position: absolute;
+	top: 250px;
+	left: calc(50% - 197px/2 + 0.5px);
+}
+
+.title-2 {
+	width: 250px;
+	height: 213px;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	position: absolute;
+	top: 750px;
+	left: calc(50% - 250px/2);
+	text-align: center;
+
+}
+
+.p1 {
+	width: 250px;
+	height: 213px;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 15px;
+	position: absolute;
+	top: 790px;
+	left: calc(50% - 250px/2 - 1px);
+}
+
+.p2 {
+	width: 250px;
+	height: 213px;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 15px;
+	position: absolute;
+	top: 950px;
+	left: calc(50% - 250px/2 - 1px);
+}
+
+.title-3 {
+	width: 145px;
+	height: 37px;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: normal;
+	position: absolute;
+	top: 1025px;
+	left: calc(50% - 145px/2 + 0.5px);
+	text-align: center;
+}
+
+.mail {
+	width: 200px;
+	height: 51px;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 14px;
+	position: absolute;
+	top: 1065px;
+	left: calc(50% - 200px/2 + 5px);
+	text-align: center;
+	}
+
+
+.twitter {
+	width: 200px;
+	height: 51px;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 14px;
+	position: absolute;
+	top: 1090px;
+	left: calc(50% - 200px/2 + 5px);
+	text-align: center;
+	}
+
+/* Add color change on hover for email and twitter links */
+.mail a:hover {
+	color: #a8ccca;
+}
+
+.twitter a:hover {
+	color: #a8ccca;
+}
+
+.mail-icon {
+  background-image: url('../img/mail.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: calc(50% - 20px/2 - 83px);
+	top: 1063px;
+}
+
+.twitter-icon {
+  background-image: url('../img/twitter.png');
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	left: calc(50% - 20px/2 - 46px);
+	top: 1088px;
+}
+
+/* =================================
+  Footer Layout Styles
+==================================== */
+
+.logo-footer {
+
+	background-size: cover;
+	position: absolute;
+	width: 120px;
+	height: 95px;
+	left: calc(50% - 74px/2 + 90px);
+	top: -35px;
+}
+
+.main-footer {
+
+	padding: 2.5em;
+	width: 100%;
+	height: 80px;
+	background-color: #a8ccca;
+	position: absolute;
+	top: 1148px;
+}
+
+span {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+
+	width: 216px;
+	height: 18px;
+	left: calc(50% - 216px/2 + 4px);
+	top: 32px;
+
+
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 12px;
+	text-align: center;
+
+	color: #000000;
+	}
+
+/* ---- Page Elements ---- */
+
+
+
+
+
+
+/* =================================
+  Media Queries
+==================================== */
